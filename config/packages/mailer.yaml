@@ -1,0 +1,7 @@
+framework:
+    mailer:
+        dsn: '%env(MAILER_DNS)%'
+        envelope:
+            sender: 'fsanon@webnet.fr'
+        headers:
+            from: 'Interest <interest@example.com>'
